@@ -7,8 +7,7 @@ public class Hello {
 	public static void main(String[] args) {
 		List<String> names =Arrays.asList("sfsd","wer","fgh","uiy","yui");
 		
-		for(String name : names){
-			System.out.println("name ::: " + name);
-		}
+		//Print names of developer using lambda 
+		names.forEach(name -> System.out.println(name));
 	}	
 }
